@@ -1,0 +1,26 @@
+# Terraform local state and cache
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Generated packages
+terraform/image_analyzer.zip
+*.zip
+
+# Local environment files
+.env
+.env.*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
